@@ -1,0 +1,18 @@
+sudo: required
+os:
+  - linux
+dist: bionic
+
+services:
+  - docker
+
+jobs:
+  include:
+    - stage: build (compile, unit test, package)
+      install: skip
+      script: travis/build.sh
+    
+    - stage: release
+      if: branch = master AND NOT type IN (pull_request)
+      install: skip
+      script: travis/release.sh
