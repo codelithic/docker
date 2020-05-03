@@ -11,7 +11,7 @@ docker tag "${DOCKER_IMAGE}:${DOCKER_TAG}" ${DOCKER_LATEST}
 
 echo "${DOCKER_PASSWORD}" | docker login -u "${DOCKER_USERNAME}" --password-stdin
 
-docker pull "${DOCKER_IMAGE}:${DOCKER_TAG}" ${DOCKER_LATEST}
+docker push ${DOCKER_LATEST}
 
 
 

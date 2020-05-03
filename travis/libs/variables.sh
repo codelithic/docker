@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 
-export DOCKER_REPOSITORY="${DOCKER_USERNAME}"
+export DOCKER_REPOSITORY="codelithic"
 
 export NULL='none'
 export TRAVIS_BRANCH="${TRAVIS_BRANCH:-develop}"
