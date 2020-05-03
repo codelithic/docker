@@ -7,4 +7,3 @@
 nginx -c /home/${RUNUSER}/nginx.conf
 
 # tail -f /dev/null 
- 
