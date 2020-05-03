@@ -53,7 +53,7 @@ RUN chmod +x /root/entrypoint.sh
 
 ENV RUNUSER $user
 
-ENTRYPOINT  "/root/entrypoint.sh"
+CMD "/root/entrypoint.sh"
 # CMD ["/root/entrypoint.sh"]
 
 
