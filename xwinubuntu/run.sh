@@ -1,6 +1,7 @@
 
 
 if [ -z "${DOCKER_PORTS}" ]
+then
 	export DOCKER_PORTS='-p 8888:80 -p 2222:22 '
 fi
 
