@@ -1,0 +1,2 @@
+https://medium.com/better-programming/running-desktop-apps-in-docker-43a70a5265c4
+https://www.cbtechinc.com/desktop-docker-1-linux-graphical-containers/
