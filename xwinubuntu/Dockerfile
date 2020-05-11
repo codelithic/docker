@@ -3,7 +3,7 @@ FROM codelithic/environment
 ARG user
 
 RUN apt-get install -y firefox
-COPY entrypoint.sh /etc/entrypoint/entrypoint.sh
+COPY xwinubuntu/entrypoint.sh /etc/entrypoint/entrypoint.sh
 RUN chmod +x /etc/entrypoint/entrypoint.sh
 
 USER ${user}
